@@ -1,0 +1,149 @@
+body{
+  background-color: #4d908e;
+}
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1, h2{
+  font-weight: normal;
+}
+
+ul
+{
+  list-style: none;
+}
+
+li{
+  padding-top: 15px;
+}
+
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.header{
+  text-align: center;
+  height: 70px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+.header div{
+  color: #325d5b;
+  width: 33%;
+  font-size: 30px;
+  padding: 15px;
+  cursor: pointer;
+}
+.header div:not(:first-child){
+  border-left: 1px solid #4d908e;
+}
+
+.content{
+  text-align: center;
+}
+
+.selected{
+  transform: scale(1.2);
+  text-decoration:underline #325d5b;
+  text-decoration-thickness: 1px;
+}
+
+.main{
+  background-color: white;
+  width: 800px;
+  color: #325d5b;
+  margin: 60px auto;
+  text-align: center;
+  outline: 1px solid #325d5b;
+  padding: 20px;
+}
+
+.users{
+  padding: 30px 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.user-card{
+  padding: 10px;
+  margin-top: 30px;
+  text-align: center;
+  background-color: white;
+  width: 500px;
+  outline: 1px solid #325d5b;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+  color: #325d5b;;
+}
+
+.user-card:hover{
+  transform: scale(1.1);
+}
+
+.user-info{
+  margin: 30px auto;
+  color: #325d5b;
+  background-color: white;
+  border: 1px solid #325d5b;
+  width: 450px;
+  padding: 20px;
+}
+
+.name{
+  text-align: center;
+  padding: 20px 0;
+  height: 50px;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.info-section{
+  padding: 20px;
+  font-size: 20px;
+}
+
+.info-section div{
+  margin-top: 10px;
+}
+
+.title{
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+  text-decoration: 1px solid #325d5b underline;
+  text-underline-position: under;
+}
+
+.back-btn{
+  color: #325d5b;
+  width: 450px;
+  height: 40px;
+  margin: 30px auto;
+  text-align: center;
+  background-color: white;
+  outline: 1px solid #325d5b;
+  transition: 0.2s ease-in;
+}
+
+.back-btn:hover{
+  transform: scale(1.1);
+}
+
+.post-card{
+  color: #325d5b;
+  background-color: white;
+  outline: 1px solid #325d5b;
+  width: 1500px;
+  margin: 30px auto;
+  padding: 20px;
+}
