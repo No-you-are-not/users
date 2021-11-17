@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import {getPosts, getUsers} from "../redux/actions";
 
 export default function Header(){
-    const [check, setCheck] = useState('')
+    const [check, setCheck] = useState('one')
     const dispatch = useDispatch();
     function showUsers(){
         dispatch(getUsers());
