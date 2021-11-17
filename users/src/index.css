@@ -1,5 +1,5 @@
 body{
-  background-color: #90be6d;
+  background-color: #4d908e;
 }
 
 a, a:hover, a:focus, a:active {
@@ -38,14 +38,14 @@ button {
 }
 
 .header div{
-  color: #304620;
+  color: #325d5b;
   width: 33%;
   font-size: 30px;
   padding: 15px;
   cursor: pointer;
 }
 .header div:not(:first-child){
-  border-left: 1px solid #90be6d;
+  border-left: 1px solid #4d908e;
 }
 
 .content{
@@ -54,17 +54,17 @@ button {
 
 .selected{
   transform: scale(1.2);
-  text-decoration:underline #304620;
+  text-decoration:underline #325d5b;
   text-decoration-thickness: 1px;
 }
 
 .main{
   background-color: white;
   width: 800px;
-  color: #304620;
+  color: #325d5b;
   margin: 60px auto;
   text-align: center;
-  outline: 1px solid #304620;
+  outline: 1px solid #325d5b;
   padding: 20px;
 }
 
@@ -75,14 +75,15 @@ button {
   justify-content: space-between;
 }
 .user-card{
+  padding: 10px;
   margin-top: 30px;
   text-align: center;
   background-color: white;
   width: 500px;
-  outline: 1px solid #304620;
+  outline: 1px solid #325d5b;
   cursor: pointer;
   transition: 0.2s ease-in;
-  color: #304620;;
+  color: #325d5b;;
 }
 
 .user-card:hover{
@@ -91,9 +92,9 @@ button {
 
 .user-info{
   margin: 30px auto;
-  color: #304620;
+  color: #325d5b;
   background-color: white;
-  border: 1px solid #304620;
+  border: 1px solid #325d5b;
   width: 450px;
   padding: 20px;
 }
@@ -119,18 +120,18 @@ button {
   font-size: 30px;
   text-align: center;
   margin-bottom: 20px;
-  text-decoration: 1px solid #304620 underline;
+  text-decoration: 1px solid #325d5b underline;
   text-underline-position: under;
 }
 
 .back-btn{
-  color: #304620;
+  color: #325d5b;
   width: 450px;
   height: 40px;
   margin: 30px auto;
   text-align: center;
   background-color: white;
-  outline: 1px solid #304620;
+  outline: 1px solid #325d5b;
   transition: 0.2s ease-in;
 }
 
@@ -139,9 +140,9 @@ button {
 }
 
 .post-card{
-  color: #304620;
+  color: #325d5b;
   background-color: white;
-  outline: 1px solid #304620;
+  outline: 1px solid #325d5b;
   width: 1500px;
   margin: 30px auto;
   padding: 20px;
